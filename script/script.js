@@ -74,11 +74,3 @@ document.getElementById("search-box").addEventListener("input", function() {
     renderTasks();
 });
 
-// Filter status dropdown
-document.getElementById("filter-status").addEventListener("change", function() {
-    renderTasks();
-});
-
-// Initial run
-updateStatistics();
-renderTasks();

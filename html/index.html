@@ -166,15 +166,66 @@
         </div>
 
         <!-- 13. ABOUT SECTION -->
-        <div class="card mt-4" id="about">
-            <div class="card-body">
-                <h5>About</h5>
+<div class="card mt-4 shadow-sm" id="about">
+    <div class="card-body">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h5 class="mb-1">
+                    <i class="fa-solid fa-circle-info me-2 text-primary"></i>
+                    About Task Manager
+                </h5>
+
                 <p class="text-muted mb-0">
-                    Task Manager helps users organize, track and complete their daily tasks.
+                    Organize, track and complete your daily tasks easily.
                 </p>
             </div>
+
+            <button 
+                class="btn btn-outline-primary btn-sm"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#aboutDetails">
+                Learn More
+            </button>
         </div>
 
+        <div class="collapse mt-3" id="aboutDetails">
+            <hr>
+
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="p-3 bg-light rounded">
+                        <i class="fa-solid fa-list-check text-primary fs-4"></i>
+                        <h6 class="mt-2">Manage Tasks</h6>
+                        <p class="text-muted small mb-0">
+                            Add, update and organize your tasks in one place.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 bg-light rounded">
+                        <i class="fa-solid fa-chart-line text-success fs-4"></i>
+                        <h6 class="mt-2">Track Progress</h6>
+                        <p class="text-muted small mb-0">
+                            Keep track of completed and pending tasks.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="p-3 bg-light rounded">
+                        <i class="fa-solid fa-clock text-warning fs-4"></i>
+                        <h6 class="mt-2">Stay Organized</h6>
+                        <p class="text-muted small mb-0">
+                            Manage your daily work and stay focused on what matters.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     </div>
 
     <!-- 14. FOOTER -->
