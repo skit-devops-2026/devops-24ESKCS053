@@ -1,0 +1,10 @@
+groups:
+  - name: task-app-alerts
+    rules:
+      - alert: TaskAppDown
+        expr: up{job="task-manager-app"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "task-manager-app has been unreachable for over a minute"
